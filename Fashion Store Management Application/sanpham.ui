@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>811</width>
+    <height>577</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>781</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid  black;
+background-color: #d1dfe6; /* Màu trung tính, dễ chịu */
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>131</width>
+       <height>531</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px outset  black;
+background-color: #fff;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="btnsanpham">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>131</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px ridge black;
+background-color: #d1dfe6; </string>
+      </property>
+      <property name="text">
+       <string>Sản Phẩm</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Hình ảnh/Cuộn phim/logo.jpg</normaloff>../../Hình ảnh/Cuộn phim/logo.jpg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>40</width>
+        <height>38</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnkhohang">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>90</y>
+        <width>131</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px ridge black;
+background-color: #fff;</string>
+      </property>
+      <property name="text">
+       <string>Kho Hàng </string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Hình ảnh/Cuộn phim/giohang1.png</normaloff>../../Hình ảnh/Cuộn phim/giohang1.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>40</width>
+        <height>38</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnnhaphanphoi">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>180</y>
+        <width>131</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px ridge black;
+background-color: #fff;</string>
+      </property>
+      <property name="text">
+       <string>Nhà Phân Phối</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Hình ảnh/Cuộn phim/nhaphaphoi.jpg</normaloff>../../Hình ảnh/Cuộn phim/nhaphaphoi.jpg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>40</width>
+        <height>38</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnkhachhang">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>270</y>
+        <width>131</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px ridge black;
+background-color: #fff;</string>
+      </property>
+      <property name="text">
+       <string>Khách Hàng</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Hình ảnh/Cuộn phim/khachhang.jpg</normaloff>../../Hình ảnh/Cuộn phim/khachhang.jpg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>40</width>
+        <height>38</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnnhanvien">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>360</y>
+        <width>131</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px ridge black;
+background-color: #fff;</string>
+      </property>
+      <property name="text">
+       <string>Nhân Viên</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Hình ảnh/Cuộn phim/nhanvien.png</normaloff>../../Hình ảnh/Cuộn phim/nhanvien.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>40</width>
+        <height>38</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btntrangchu">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>450</y>
+        <width>131</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px ridge black;
+background-color: #fff;</string>
+      </property>
+      <property name="text">
+       <string>Trang Chủ</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Hình ảnh/Cuộn phim/home.ico</normaloff>../../Hình ảnh/Cuộn phim/home.ico</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>40</width>
+        <height>38</height>
+       </size>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>10</y>
+       <width>631</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #d1dfe6;
+border: 4px double black;
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>10</y>
+        <width>371</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #d1dfe6;;
+ text-align: center;
+</string>
+      </property>
+      <property name="text">
+       <string>      ----------THÔNG TIN CHI TIẾT SẢN PHẨM----------</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_3">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>60</y>
+       <width>631</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 4px double black;
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="masp">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #d1dfe6;;
+ text-align: center;</string>
+      </property>
+      <property name="text">
+       <string>Mã Sản Phẩm</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="tensp">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #d1dfe6;;
+ text-align: center;</string>
+      </property>
+      <property name="text">
+       <string>Tên Sản Phẩm</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txttsp">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>60</y>
+        <width>161</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid black;
+background-color: #fff; </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="loaisp">
+      <property name="geometry">
+       <rect>
+        <x>302</x>
+        <y>10</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #d1dfe6;;
+ text-align: center;</string>
+      </property>
+      <property name="text">
+       <string>Loại Sản Phẩm</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="trangthai">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>50</y>
+        <width>71</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #d1dfe6;;
+ text-align: center;</string>
+      </property>
+      <property name="text">
+       <string>Trạng Thái</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txtsl">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>100</y>
+        <width>161</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid black;
+background-color: #fff; </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soluong">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>100</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #d1dfe6;;
+ text-align: center;</string>
+      </property>
+      <property name="text">
+       <string>Số Lượng</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="mnpp">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>90</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #d1dfe6;;
+ text-align: center;</string>
+      </property>
+      <property name="text">
+       <string>Mã Nhà Phân Phối</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="cbbnpp">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>100</y>
+        <width>161</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid black;
+background-color: #fff; </string>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>LV</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Gucci</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Adidas</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>YSL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dolce</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="cbbtt">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>60</y>
+        <width>161</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid black;
+background-color: #fff; </string>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Còn Hàng</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Hết Hàng</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="btnthem">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>180</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1.4px solid black;
+background-color: #FFAD9F; 
+border-radius: 12px;</string>
+      </property>
+      <property name="text">
+       <string>THÊM</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btncapnhat">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>180</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid black;
+background-color: #FEE7ED; 
+border-radius: 12px;</string>
+      </property>
+      <property name="text">
+       <string>CẬP NHẬT</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnxoa">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>180</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid black;
+background-color: #FFC5C1; 
+border-radius: 12px;</string>
+      </property>
+      <property name="text">
+       <string>XÓA</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btntimkiem">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>140</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid black;
+background-color: #FFAD9F; 
+border-radius: 12px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Hình ảnh/Cuộn phim/2093656_seach_look_search_see_icon.ico</normaloff>../../Hình ảnh/Cuộn phim/2093656_seach_look_search_see_icon.ico</iconset>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txttimkiem">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>140</y>
+        <width>161</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid black;
+background-color: #fff; 
+border-radius: 12px;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txtmasp">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>20</y>
+        <width>161</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid black;
+background-color: #fff; </string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="cbbloaisp">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>20</y>
+        <width>161</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid black;
+background-color: #fff; </string>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Váy</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Khoác Jeans</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Khoác Da</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Áo Hoodie</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Cadigan</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Giày Thể Thao</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Boot</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Quần Jeans </string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Quần Âu</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Quần KaKi</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="sotien">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>140</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #d1dfe6;;
+ text-align: center;</string>
+      </property>
+      <property name="text">
+       <string>Số Tiền</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txtsotien">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>140</y>
+        <width>161</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid black;
+background-color: #fff; </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnclear">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>180</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid black;
+background-color: #FFC5C1; 
+border-radius: 12px;</string>
+      </property>
+      <property name="text">
+       <string>CLEAR</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_10">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>290</y>
+       <width>631</width>
+       <height>231</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid black;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QTableWidget" name="tableload">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>611</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid black;
+background-color: #fff;</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>811</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
